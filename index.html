@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt's Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="title">Build your Library</div>
+            <div class="add"><form class="form-container">
+                <label for="title">Title: </label>
+                <input id="title" class="fill" name="title" required>
+            
+                <label for="author">Author: </label>
+                <input id="author" class="fill" name="author" required>
+
+                <label for="pages">Pages: </label>
+                <input id="pages" class="fill" name="pages" size="3" required>
+            
+                <button type="submit" class="btn">+add book</button>
+              </form></div>
+        </div>
+        <div class="list" id="list">
+            <!-- <div class="book" id="1"><button class="read">remove</button>Harry Potter JK Rowling 500 pages<button id="rmv">read</button></div>
+            <div class="book" id="2"><button class="read">remove</button>Lord of The Rings JR Tolkien 545 pages<button id="rmv">read</button></div> -->
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
